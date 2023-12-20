@@ -1,0 +1,23 @@
+name: ElytraRacing
+version: 1.5.3.17
+main: fr.CHOOSEIT.elytraracing.Main
+author: CHOOSEIT
+website: www.chooseit.io/elytraracing
+loadbefore: [HolographicDisplays]
+softdepend: [PlaceholderAPI, Parties, ViaVersion]
+commands:
+  erhost:
+    description: Host commands !
+    permission: elytraracing.host
+  er:
+    permission: elytraracing.er
+    description: ElytraRacing Player commands!
+  ermap:
+    description: Admin commands ! -> Maps
+    permission: elytraracing.admin
+  ergames:
+    description: Admin commands ! -> Autogames
+    permission: elytraracing.admin
+  erconfig:
+    description: Admin commands ! -> General configuration
+    permission: elytraracing.admin
