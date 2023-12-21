@@ -1,5 +1,5 @@
 # ElytraRacing 
-![Discord](https://img.shields.io/discord/798206941746823210?style=flat&logo=discord) 
+[![Discord](https://img.shields.io/discord/798206941746823210?style=flat&logo=discord)](https://discord.com/invite/zBuvh7DctP) 
 
 Minecraft plugin allowing you to create and host elytra races, with 1.9.4 to 1.19 support
 
