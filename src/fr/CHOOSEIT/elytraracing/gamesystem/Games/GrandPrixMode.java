@@ -72,7 +72,7 @@ public class GrandPrixMode extends Game {
         } else {
             scoreBoardSaver = scoreboardConfig.GrandPrix.get(getGameState(), isHosted(), false);
         }
-        updatePrivateBoardSaver(scoreBoardSaver);
+        updatePrivateBoardSaver(scoreBoardSaver, new ArrayList<>(getGamePlayers()));
         if (getGameSpectators().isEmpty()) {
             return;
         }
@@ -85,7 +85,7 @@ public class GrandPrixMode extends Game {
         } else {
             scoreBoardSaver = scoreboardConfig.GrandPrix.get(getGameState(), isHosted(), true);
         }
-        updatePrivateBoardSaver(scoreBoardSaver);
+        updatePrivateBoardSaver(scoreBoardSaver, new ArrayList<>(getGameSpectators()));
     }
 
     public void updateScore() {

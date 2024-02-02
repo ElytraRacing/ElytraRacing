@@ -689,9 +689,9 @@ public abstract class Game implements ERGame {
     public void updateBoard() {
     }
 
-    public void updatePrivateBoardSaver(ScoreboardConfig.ScoreBoardSaver scoreBoardSaver) {
+    public void updatePrivateBoardSaver(ScoreboardConfig.ScoreBoardSaver scoreBoardSaver, ArrayList<GamePlayer> ps) {
         if (!(scoreBoardSaver == null || scoreBoardSaver.getTitle() == null || scoreBoardSaver.getLines() == null)) {
-            privateUpdateBoard(new ArrayList<>(getGamePlayers()), scoreBoardSaver);
+            privateUpdateBoard(ps, scoreBoardSaver);
         }
     }
 

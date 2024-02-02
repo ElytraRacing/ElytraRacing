@@ -55,11 +55,11 @@ public class RaceMode extends Game {
     @Override
     public void updateBoard() {
         ScoreboardConfig scoreboardConfig = Main.scoreboardConfig;
-        updatePrivateBoardSaver(scoreboardConfig.RaceMode.get(getGameState(), isHosted(), false));
+        updatePrivateBoardSaver(scoreboardConfig.RaceMode.get(getGameState(), isHosted(), false), new ArrayList<>(getGamePlayers()));
         if (getGameSpectators().isEmpty()) {
             return;
         }
-        updatePrivateBoardSaver(scoreboardConfig.RaceMode.get(getGameState(), isHosted(), true));
+        updatePrivateBoardSaver(scoreboardConfig.RaceMode.get(getGameState(), isHosted(), true), new ArrayList<>(getGameSpectators()));
     }
 
     @Override
