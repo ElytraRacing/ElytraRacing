@@ -51,7 +51,7 @@ public class Training extends RaceMode {
     @Override
     public void updateBoard() {
         ScoreboardConfig scoreboardConfig = Main.scoreboardConfig;
-        updatePrivateBoardSaver(scoreboardConfig.Training.get(ScoreboardConfig.BoardState.TRAINING));
+        updatePrivateBoardSaver(scoreboardConfig.Training.get(ScoreboardConfig.BoardState.TRAINING), new ArrayList<>(getGamePlayers()));
     }
 
     public GamePlayer getPlayer() {
