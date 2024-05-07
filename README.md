@@ -1,4 +1,4 @@
-# ElytraRacing 
+# ElytraRacing (Discontinued)
 [![Discord](https://img.shields.io/discord/798206941746823210?style=flat&logo=discord)](https://discord.com/invite/zBuvh7DctP) 
 
 Minecraft plugin allowing you to create and host elytra races.
