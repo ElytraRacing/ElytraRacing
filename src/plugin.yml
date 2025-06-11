@@ -2,7 +2,7 @@ name: ElytraRacing
 version: 1.5.3.18
 main: fr.CHOOSEIT.elytraracing.Main
 author: CHOOSEIT
-website: www.chooseit.io/elytraracing
+website: chooseit.gitbook.io/elytraracing
 loadbefore: [HolographicDisplays]
 softdepend: [PlaceholderAPI, Parties, ViaVersion]
 commands:

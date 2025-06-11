@@ -130,7 +130,7 @@ public class CustomMessageConfig {
 
     }
 
-    public String DOCUMENTATION_LINK = "https://chooseit.io/elytraracing";
+    public String DOCUMENTATION_LINK = "https://chooseit.gitbook.io/elytraracing";
     public String PREFIX = "&fElytraRacing &c>> &f";
 
     public int RELOADINTERVALOBJECTS = 10;

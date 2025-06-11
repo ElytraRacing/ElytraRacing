@@ -304,7 +304,7 @@ public class ERConfig implements CommandExecutor, TabCompleter {
         p.sendMessage(" ");
         TextComponent message = new TextComponent("§7More information ");
         TextComponent click = new TextComponent("§e§nHere");
-        click.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://chooseit.io/er/doc/commands/command-erconfig"));
+        click.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://chooseit.gitbook.io/elytraracing/commands/command-erconfig"));
         message.addExtra(click);
         p.spigot().sendMessage(message);
         p.sendMessage("§7§oClick on commands to execute them");

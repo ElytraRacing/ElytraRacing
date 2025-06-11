@@ -785,7 +785,7 @@ public class MapCommand implements CommandExecutor {
     }
 
     public static void HelpMessage(Player p, HelpMessage helpMessage, Map map, int object_id) {
-        String URLHELP = "https://chooseit.io/er/doc/commands/command-ermap";
+        String URLHELP = "https://chooseit.gitbook.io/elytraracing/commands/command-ermap";
         if (helpMessage == HelpMessage.DEFAULT) {
             p.sendMessage("§6§m------------------------------------");
             String plusarg = "";

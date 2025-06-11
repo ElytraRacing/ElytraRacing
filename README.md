@@ -10,7 +10,7 @@ ElytraRacing is a high-quality mini-game Minecraft plugin perfect for every serv
 
 ## More information
 
-Links: [Documentation](https://chooseit.io/elytraracing), [Maps](https://chooseit.io/elytraracing/lack-of-maps), [Discord](https://discord.com/invite/zBuvh7DctP), [Youtube](https://www.youtube.com/@ElytraRacing)
+Links: [Documentation](https://chooseit.gitbook.io/elytraracing), [Maps](https://chooseit.gitbook.io/elytraracing/lack-of-maps), [Discord](https://discord.com/invite/zBuvh7DctP), [Youtube](https://www.youtube.com/@ElytraRacing)
 
 Page links: 
 [Spigotmc (Free version page)](https://www.spigotmc.org/resources/elytraracing-custom-elytra-race-1-9-4-1-20-%E2%9C%85-700-customizable-parameters-free.114063/),

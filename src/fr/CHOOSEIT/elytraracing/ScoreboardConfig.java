@@ -249,7 +249,7 @@ public class ScoreboardConfig {
 
     public boolean Enable = false;
     public int TickReloadInterval = 20;
-    public String link = "chooseit.io/er";
+    public String link = "<website>";
 
     public ScoreboardRaceMode RaceMode = new ScoreboardRaceMode();
     public ScoreboardGrandPrix GrandPrix = new ScoreboardGrandPrix();
